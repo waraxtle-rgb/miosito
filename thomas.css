@@ -1,0 +1,68 @@
+/* generali */
+body{
+    background-color: rgb(205, 205, 205);
+    padding: 0;
+    margin: 0px;
+    border-bottom: 3px solid red;
+}
+#contenitoregen{
+    background-color: gray;
+    color: whitesmoke;
+    border: 10px solid black;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0px 40px;
+    margin-top: 0;
+    padding-bottom: 30px;
+}
+/* piu specifiche ma grandi */
+#titoloalto{
+    text-align: center;
+    background-color: green;
+    margin: 0px;
+    padding: 10px;
+}
+.piusudime{
+    background-color: gray;
+    border: 2px solid rgb(88, 88, 88);
+    border-radius: 10px;
+    padding: 0px 40px;
+    width: 40%;
+    font-family: cursive;
+    margin-bottom: 25px;
+    margin-top:12px;
+}
+.piusudime:hover{
+    background-color: rgb(150, 150, 150);
+}
+/* generalissime */
+a{
+    color: rgb(0, 204, 255);
+}
+a:active{
+    color: yellow;
+}
+#benvenuto1{
+    text-align: center;
+}
+#imginizio{
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+#imgstudio{
+    float: right;
+    width: 50%;
+}
+.piusudime:nth-of-type(1) {
+    margin-top: 20px;
+}
+/* piu definite */
+@media (max-width: 550px){
+    #contenitoregen{
+        width: 75%;
+    }
+}
+@media (max-width: 700px){
+    #imginizio{
+        width: 80%;
+    }
+}
