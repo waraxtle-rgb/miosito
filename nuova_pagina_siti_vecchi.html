@@ -44,15 +44,44 @@
                 margin: auto;
                 margin-top: 0px;
                 padding: 15px;
+                margin-top: 50px;
+            }
+            #barraalto{
+                background-color: #6d435a;
+                margin: 0px;
+                width: 100%;
+                color: rgb(214, 214, 214);
+                padding: 5px;
+                padding-bottom: 2px; 
+                position: fixed;
+                top: 0px;
+                left: 0px;
+            }
+            #tablesiti td:hover {
+                background-color: rgba(186,186, 186, 0.7);
             }
         </style>
     </head>
     <body>
-        <button onclick="javascript:history.back()" style="color: rgb(0, 69, 0); background-color: darkgreen;">indietro</button>
+        <div id="barraalto">
+            <button 
+                onclick="javascript:history.back()" 
+                style="
+                color: rgb(0, 69, 0); 
+                background-color: rgb(11, 203, 11); 
+                border-radius: 10px;
+                float: left;
+            ">indietro</button>
+
+            <p style="
+                text-align: center;
+                font-size: 20px;
+            ">qua ci sono tutti i miei siti</p>
+        </div>
         <div id="contgen">
             <h1 style="text-align: center; font-family: cursive;">benvenuti!! nella pagina dove ci sono tutti i siti che ho fatto</h1>
             <h3 style="text-align: center; font-family: cursive;">qui li troverete tutti(compresi quelli che ho fatto col corso in cui alla fine è specificata una cosa iportante). non tutti i siti sono apribili</h3>
-            <table>
+            <table id="tablesiti">
                 <tr style="font-size: 20px;">
                     <th>immagine del sito</th>
                     <th>nome del sito</th>
@@ -60,10 +89,16 @@
                     <th>per aprire il sito</th>
                 </tr>
                 <tr>
+                    <td><img src="" alt='img sito "atm" rifatto'></td>
+                    <td>"ATM"</td>
+                    <td>per passare il tempo inventando questa società immaginaria</td>
+                    <td><a href="#">apri il sito</a></td>
+                </tr>
+                <tr>
                     <td><img src="copsito.jpg" alt="immagine del sito THOMAS"></td>
                     <td>"THOMAS"</td>
                     <td>questo sito, per parlare di me</td>
-                    <td><a href="thomas.html">apri il sito</a></td>
+                    <td><a href="index.html">apri il sito</a></td>
                 </tr>
                 <tr>
                     <td><img src="#" alt="immagine del sito prova2"></td>
