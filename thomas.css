@@ -2,7 +2,7 @@
 body{
     background-color: rgb(205, 205, 205);
     background-image: url("thomaslogo.png");
-    background-size: 10%;
+    background-size: 12%;
     background-repeat: repeat-y;
     padding: 0;
     margin: 0px;
@@ -17,6 +17,7 @@ body{
     padding: 0px 40px;
     margin-top: 0;
     padding-bottom: 30px;
+    max-width: 1700px;
 }
 /* piu specifiche ma grandi */
 #titoloalto{
@@ -54,6 +55,7 @@ a:active{
 #imgstudio{
     float: right;
     width: 50%;
+    border-radius: 20px !important;
 }
 .piusudime:nth-of-type(1) {
     margin-top: 20px;
@@ -71,10 +73,41 @@ a:active{
     margin-top: 40px;
     box-shadow:  0px 0px 20px rgba(87, 87, 87, 0.5);
 }
+#sapereinizio {
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(35, 35, 35);
+    font-size: 19px;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+} 
 /* piu definite */
+@media (max-width: 320px){
+    #sapereinizio {
+        width: 80%;
+    }
+    #benvenuto1, #introduzione {
+        width: 90%;
+    }
+    #titoloalto {
+        margin-right: 0px;
+        width: 100%;
+    }
+    body{
+        padding-right: 0px;
+    }
+}
 @media (max-width: 550px){
     #contenitoregen{
         width: 75%;
+    }
+}
+@media (max-width: 600px){
+    .piusudime{
+        width: 20%;
     }
 }
 @media (max-width: 700px){
@@ -85,13 +118,36 @@ a:active{
         float: none;
     }
 }
+@media (max-width: 900px){
+    #sapereinizio{
+        width: ;
+    }
+}
 @media (max-width: 1200px){
     .piusudime{
         width: 30%;
     }
-}
-@media (max-width: 600px){
-    .piusudime{
-        width: 20%;
+    #imgstudio1 {
+        overflow: hidden;
+        height: 250px;
+        border-radius: 20px !important;
+    }
+    #imgstudio {
+        width: 65%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 0px !important;
+    }
+    .piusudime {
+        margin: 0 auto;
+        margin-top: 12px !important;
+        margin-bottom: 20px !important;
+        width: 85%;
+    }
+    .piusudime.a1{
+        margin-top: 40px !important;
     }
 }
