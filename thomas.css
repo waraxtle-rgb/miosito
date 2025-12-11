@@ -99,28 +99,47 @@ a:active{
     body{
         padding-right: 0px;
     }
+    #contenitoregen {
+        width: 50% !important;
+    }
+}
+@media (max-width: 400px){
+    #titoloalto {
+        width: 103.3% !important;
+    }
 }
 @media (max-width: 550px){
-    #contenitoregen{
-        width: 75%;
+    #titoloalto {
+        width: 99.5%;
     }
 }
 @media (max-width: 600px){
     .piusudime{
         width: 20%;
     }
+    #contenitoregen {
+        width: 83.5% !important;
+    }
 }
 @media (max-width: 700px){
     #imginizio{
         width: 80%;
     }
-    #tutti_gli_schermi{
-        float: none;
+    #sapereinizio {
+        width: 95% !important;
+    }
+}
+@media (max-width: 800px){
+    #contenitoregen {
+        width: 69%;
     }
 }
 @media (max-width: 900px){
-    #sapereinizio{
-        width: ;
+    #sapereinizio {
+        width: 80%;
+    }
+    #introduzione {
+        width: 95%;
     }
 }
 @media (max-width: 1200px){
@@ -149,5 +168,10 @@ a:active{
     }
     .piusudime.a1{
         margin-top: 40px !important;
+    }
+}
+@media (max-width: 320px){
+    #contenitoregen {
+        width: 78.32% !important;
     }
 }
